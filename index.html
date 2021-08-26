@@ -6,7 +6,13 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Zaverstai</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
    <link rel="stylesheet" href="./css/normal.css">
+   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -45,22 +51,24 @@
          </div>
          <div class="header__content">
             <div class="container">
-               <div class="header__item">
-                  <h1 class="header__title">
-                     Авторские букеты в Петербурге
-                  </h1>
-                  <p class="header__text">
-                     Оригинальные свежие букеты с доставкой по всему городу
-                  </p>
-                  <button class="button" href="#">
-                     Смотреть каталог
-                  </button>
-               </div>
-               <div class="header__item">
-                  <img class="header__img" src="./images/header_01.jpg" alt="тюльпаны" >
-               </div>
-               <div class="header__item">
-                  <img class="header__img" src="./images/header_02.jpg" alt="пионы" >
+               <div class="content__wrapper">
+                  <div class="header__item">
+                     <h1 class="header__title">
+                        Авторские букеты в <span>Петербурге</span>
+                     </h1>
+                     <p class="header__text">
+                        Оригинальные свежие букеты с доставкой по всему городу
+                     </p>
+                     <button class="button" href="#">
+                        Смотреть каталог
+                     </button>
+                  </div>
+                  <div class="header__item">
+                     <img class="header__img" src="./images/header_01.jpg" alt="тюльпаны">
+                  </div>
+                  <div class="header__item">
+                     <img class="header__img" src="./images/header_02.jpg" alt="пионы">
+                  </div>
                </div>
             </div>
          </div>
@@ -68,32 +76,34 @@
    </header>
    <article class="benefits">
       <div class="container">
-         <div class="benefits__item">
-            <img class="item__img" src="./images/icons/icon_01.svg" alt="Доставка">
-            <h4 class="item__title">
-               Быстрая доставка
-            </h4>
-            <p class="item__text">
-               Можем собрать букет и передать его в доставку всего за час.
-            </p>
-         </div>
-         <div class="benefits__item">
-            <img class="item__img" src="./images/icons/icon_02.svg" alt="Цветы">
-            <h4 class="item__title">
-               Всегда свежие цветы
-            </h4>
-            <p class="item__text">
-               Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
-            </p>
-         </div>
-         <div class="benefits__item">
-            <img class="item__img" src="./images/icons/icon_03.svg" alt="Фото">
-            <h4 class="item__title">
-               Отправляем фото цветов
-            </h4>
-            <p class="item__text">
-               Перед доставкой сделаем фотографию букета и отправим вам.
-            </p>
+         <div class="benefits__wrapper">
+            <div class="benefits__item">
+               <img class="item__img" src="./images/icons/icon_01.svg" alt="Доставка">
+               <h4 class="item__title">
+                  Быстрая доставка
+               </h4>
+               <p class="item__text">
+                  Можем собрать букет и передать его в доставку всего за час.
+               </p>
+            </div>
+            <div class="benefits__item">
+               <img class="item__img" src="./images/icons/icon_02.svg" alt="Цветы">
+               <h4 class="item__title">
+                  Всегда свежие цветы
+               </h4>
+               <p class="item__text">
+                  Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
+               </p>
+            </div>
+            <div class="benefits__item">
+               <img class="item__img" src="./images/icons/icon_03.svg" alt="Фото">
+               <h4 class="item__title">
+                  Отправляем фото цветов
+               </h4>
+               <p class="item__text">
+                  Перед доставкой сделаем фотографию букета и отправим вам.
+               </p>
+            </div>
          </div>
       </div>
    </article>
@@ -152,7 +162,8 @@
                   Скидка 10% на первый заказ
                </h2>
                <p class="discount__text">
-                  Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.
+                  Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и
+                  получите скидку 10%.
                </p>
             </div>
             <div class="discount__image">
@@ -165,7 +176,7 @@
             <h2 class="title">4 шага к идеальному букету</h2>
             <div class="steps__wrapper">
                <div class="steps__item">
-                  <img class="item__img" src="./images/icons/icon_04.svg" alt="Заказ">   
+                  <img class="item__img" src="./images/icons/icon_04.svg" alt="Заказ">
                   <h4 class="item__title">Заказ</h4>
                   <p class="item_text">Выбирите понравившейся букет из каталога и оформите заказ</p>
                </div>
@@ -215,19 +226,22 @@
             <div class="reviews__wrapper">
                <div class="review">
                   <p class="review__text">
-                     Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!
+                     Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое
+                     спасибо!
                   </p>
                   <span class="review__user">Марина</span>
                </div>
                <div class="review">
                   <p class="review__text">
-                     Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!
+                     Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду
+                     ещё заказывать!
                   </p>
                   <span class="review__user">Татьяна</span>
                </div>
                <div class="review">
                   <p class="review__text">
-                     Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!
+                     Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно
+                     соберут красивый букет!
                   </p>
                   <span class="review__user">Ольга</span>
                </div>
