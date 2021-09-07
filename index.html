@@ -74,6 +74,7 @@
          </div>
       </div>
    </header>
+   
    <article class="benefits">
       <div class="container">
          <div class="benefits__wrapper">
@@ -132,32 +133,36 @@
             </div>
          </div>
          <div class="slider__navigation">
-            <img class="navigation__img arrow__left" src="./images/icons/slider/arrow_left.png" alt="arrow left">
-            <img class="navigation__img arrow__right" src="./images/icons/slider/arrow_right.png" alt="arrow right">
+            <button class="arrow__left">
+               <img class="navigation__img" src="./images/icons/slider/arrow_left.png" alt="arrow left"> 
+            </button>
+            <button class="arrow__right">
+               <img class="navigation__img" src="./images/icons/slider/arrow_right.png" alt="arrow right">
+            </button>
          </div>
       </section>
 
       <section class="catalog">
          <div class="container">
             <div class="catalog__wrapper">
-               <div class="catalog__card card-01">
+               <a class="catalog__card card-01" href="#">
                   <h2 class="catalog__title">
                      Свадебные букеты
                   </h2>
                   <span class="catalog__text">Букеты для невест</span>
-               </div>
-               <div class="catalog__card card-02">
+               </a>
+               <a class="catalog__card card-02" href="#">
                   <h2 class="catalog__title">
                      Букеты с пионами
                   </h2>
                   <span class="catalog__text">Букеты с сезонными пионами</span>
-               </div>
-               <div class="catalog__card card-03">
+               </a>
+               <a class="catalog__card card-03" href="#">
                   <h2 class="catalog__title">
                      Выбрать букет
                   </h2>
                   <span class="catalog__text">Букеты в ассортименте</span>
-               </div>
+               </a>
             </div>
          </div>
       </section>
@@ -294,7 +299,9 @@
             </ul>
          </div>
       </section>
+
    </main>
+
    <footer class="footer">
       <div class="container">
          <div class="footer__wrapper">
@@ -302,36 +309,42 @@
                <img src="./images/icons/logo/logo_footer.svg" alt="Logo footer">
             </div>
             <ul class="footer__menu">
-               <li class="menu__item">
-                  <a class="menu__link" href="#">
+               <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">
                      Каталог
                   </a>
                </li>
-               <li class="menu__item">
-                  <a class="menu__link" href="#">
+               <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">
                      Доставка и оплата
                   </a>
                </li>
-               <li class="menu__item">
-                  <a class="menu__link" href="#">
+               <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">
                      Отзывы
                   </a>
                </li>
-               <li class="menu__item">
-                  <a class="menu__link" href="#">
+               <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">
                      Спецпредложения
                   </a>
                </li>
-               <li class="menu__item">
-                  <a class="menu__link" href="#">
+               <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">
                      Контакты
                   </a>
                </li>
             </ul>
-            <div class="footer__socials">
-               <img class="socials__image" src="./images/icons/socials/instagram_footer.svg" alt="instagram">
-               <img class="socials__image" src="./images/icons/socials/facebook_footer.svg" alt="facebook">
-               <img class="socials__image" src="./images/icons/socials/twitter_footer.svg" alt="twitter">
+            <div class="socials__group">
+               <a class="socials__link" href="#">
+                  <img class="socials__item" src="./images/icons/socials/instagram_footer.svg" alt="instagram">
+               </a>
+               <a class="socials__link" href="#">
+                  <img class="socials__item" src="./images/icons/socials/facebook_footer.svg" alt="facebook">
+               </a>
+               <a class="socials__link" href="#">
+                  <img class="socials__item" src="./images/icons/socials/twitter_footer.svg" alt="twitter">
+               </a>
             </div>
          </div>
       </div>
